@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width:100%;
+    background-color: beige;
+    position: fixed;
+    z-index: 12;
+    
+}
+
+nav{
+    width: 1200px;
+    padding: 30px 10px 10px; 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.meny li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20;
+    color: black;
+}
+
+.meny li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.wrap-poster{
+    width: 100%;
+    height: 628px;
+    background-image: url(2IMG_7251.jpg);
+    background-repeat: no-repeat;
+    background position: left;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#hjem{
+    
+    padding-left: 700px;
+    padding-top: 300px;
+    color: azure;
+}
+
+#hjem h1{
+    font-size: 50pt;
+    }
+#hjem h1,#hjem h2{
+    font-family: fantasy;
+}
+#hjem h2{
+    font-stretch: semi-condensed;
+}
+
+#vaarIde{
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#instalasjon,#vedlikehold, #kontakter{
+    background-color: gainsboro;
+    width: 100%;
+    display:inline-block;
+   }
+
+#instalasjon img,#vedlikehold img{
+    width: 50%;
+    float: right;    
+}
+
+#kontakter img{
+    width: 50%;
+    float: left;    
+
+}
+#kontakter div{
+    width: 40%;
+    float:right;
+    padding-top: 200px;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+#instalasjon div,#vedlikehold div{
+    width: 40%;
+    float:left;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+
+h2{
+    margin-bottom: 10px;
+}
